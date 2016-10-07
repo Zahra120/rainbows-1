@@ -42,7 +42,7 @@ var lyrics = [
   'I am the walrus, coo coo cachoo ca coo coo cachoo. Coo coo cachou ca coo.'
 ];
 
-function printRandomLine(string) {
+function printRandomColor(string) {
   var randomNumber = Math.floor(Math.random() * 10),
       possibleColors = [
         'red', 'green', 'blue', 'white', 'cyan', 'magenta', 'red', 'green', 'blue', 'red'
@@ -54,5 +54,5 @@ function printRandomLine(string) {
 
 
 for (var i = 0; i < lyrics.length; i++) {
-  printRandomLine(lyrics[i]);
+  printRandomColor(lyrics[i]);
 }
