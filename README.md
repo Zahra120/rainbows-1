@@ -1,6 +1,6 @@
 # TO INSTALL:
 
-```
+```bash
 $ npm install
 ```
 
@@ -14,14 +14,14 @@ This file expects a string argument. Then it runs that string in different color
 
 to run this file do:
 
-```
+```bash
 $ node index.js 'Your string comes here'
 ```
 
 ###### song.js
 
 This file runs a predefined lyrics in multiple colors on your terminal. To run this file:
-```
+```bash
 $ node song.js
 ```
 ###### song-reader.js
@@ -31,6 +31,6 @@ in different colors
 
 TO RUN it:
 
-```
+```bash
 $ node song-reader.js strawberry-fields-forever.txt
 ```
