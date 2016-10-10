@@ -43,7 +43,7 @@ var lyrics = [
 ];
 
 function printRandomColor(string) {
-  var randomNumber = Math.floor(Math.random() * 10),
+  var randomNumber = Math.floor(Math.random() * 10), // this will get a number from 0 to 10 , NOT A DECIMAL
       possibleColors = [
         'red', 'green', 'blue', 'white', 'cyan', 'magenta', 'red', 'green', 'blue', 'red'
       ];

@@ -5,6 +5,10 @@ function readSong(song) {
   fs.readFile(song, function(err, data) {
     var array = data.toString().split('\n');
 
+    for (var i = 0; i < array.length; i++) {
+      printRandomColor(array[i]);
+    }
+
     function printRandomColor(string) {
       var randomNumber = Math.floor(Math.random() * 10),
           possibleColors = [
@@ -13,10 +17,6 @@ function readSong(song) {
 
       console.log(colors[possibleColors[randomNumber]](string));
       // dynamic version of: console.log(colors.red(string))
-    }
-
-    for (var i = 0; i < array.length; i++) {
-      printRandomColor(array[i]);
     }
   });
 }
