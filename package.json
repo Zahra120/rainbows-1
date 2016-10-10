@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/izelnakri/rainbows#readme",
   "dependencies": {
-    "color": "^0.11.3"
+    "colors": "^0.11.3"
   }
 }
