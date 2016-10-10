@@ -1,4 +1,4 @@
-var colors = require('colors');
+var chalk = require('chalk');
 
 var lyrics = [
   'I am he as you are he as you are me and we are all together.',
@@ -48,7 +48,7 @@ function printRandomColor(string) {
         'red', 'green', 'blue', 'white', 'cyan', 'magenta', 'red', 'green', 'blue', 'red'
       ];
 
-  console.log(colors[possibleColors[randomNumber]](string));
+  console.log(chalk[possibleColors[randomNumber]](string));
   // dynamic version of: console.log(colors.red(string))
 }
 

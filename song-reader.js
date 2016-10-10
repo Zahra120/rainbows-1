@@ -1,5 +1,5 @@
 var fs = require('fs');
-var colors = require('colors');
+var chalk = require('chalk');
 
 function readSong(song) {
   fs.readFile(song, function(err, data) {
@@ -15,7 +15,7 @@ function readSong(song) {
             'red', 'green', 'blue', 'white', 'cyan', 'magenta', 'red', 'green', 'blue', 'red'
           ];
 
-      console.log(colors[possibleColors[randomNumber]](string));
+      console.log(chalk[possibleColors[randomNumber]](string));
       // dynamic version of: console.log(colors.red(string))
     }
   });
